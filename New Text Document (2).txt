@@ -1,0 +1,6 @@
+<%= value %>	Output a variable (Escaped)
+<%- value %>	Output raw HTML (Unescaped)
+<% code %>	Execute JavaScript (No output)
+<%# comment %>	Comment (ignored in output)
+<% for (let i = 0; i < 5; i++) { %>	Open a loop
+<% } %>	Close a loop
